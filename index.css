@@ -1,13 +1,17 @@
 body {
     background-color: #ffba08;
     margin: 0;
+    font-family: 'Artifika', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
 }
-
+#valid-text{
+    margin-top:0;
+}
 #dots {
     margin-right: 20px;
 }
@@ -51,14 +55,16 @@ img{
 
 .verification {
     background-color: #386641;
-    height: 100px;
+    height: 70pxpx;
     width: 90%;
     margin: 25% auto;
-    border-radius: 5px }
+    border-radius: 5px;
+    margin-bottom: 0px; }
     
 .verification p {
-    margin: 0;
-    padding-top: 18px;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     color: #d8dbe2;
     font-weight: lighter;
 }
@@ -66,5 +72,7 @@ img{
 #valid-year {
     font-weight: bolder;
     font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 15px
 }
     
