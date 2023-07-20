@@ -35,7 +35,7 @@ img{
 
 #name {
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 20px;
 }
 
@@ -44,6 +44,7 @@ img{
     height: 500px;
     border-radius: 30px;
     font-size: 18px;
+    margin-top: 60px
 }
 
 #school {
